@@ -1,7 +1,16 @@
 aid: sara-health
 name: SaRA Health
-description: SaRA Health is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  SaRA Health is a healthcare technology company that helps physical therapy,
+  occupational therapy, orthopedic, and pain management practices engage patients
+  between appointments through personalized SMS check-ins. The platform automates
+  Remote Therapeutic Monitoring (RTM) by identifying eligible patients inside
+  browser-based Electronic Medical Record (EMR) systems, sending injury- and
+  care-plan-specific text-message check-ins, and handling the associated billing
+  and denial management for RTM CPT codes such as 98975, 98977, and 98980-98981.
+  SaRA Health reports a 65% average patient engagement rate and operates on an
+  "Effector Model" in which its revenue is tied to client success. It was surfaced
+  as a Techstars portfolio company and profiled in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/sara-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://www.sarahealth.com/favicon.ico
 tags:
 - Company
+- Healthcare
+- Digital Health
+- Remote Therapeutic Monitoring
+- Patient Engagement
+- Physical Therapy
+- SMS Messaging
+- Medical Billing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/sara-health-domain-security.yml
 - type: Website
-  url: https://sarahealth.io/
+  url: https://www.sarahealth.com/
+- type: Blog
+  url: https://www.sarahealth.com/media-and-blog
+- type: Support
+  url: https://www.sarahealth.com/getintouch
+- type: LinkedIn
+  url: https://www.linkedin.com/company/sarahealth
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
